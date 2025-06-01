@@ -32,10 +32,6 @@ Serves as a partner to _needs-screenshots_. Once a ticket has at least one scree
 
 The ticket has been reviewed, found to be desirable to solve, and the latest patch contains unit tests. Like _needs-unit-tests_, this keyword indicates the proposed changes constitute a high risk of causing other issues.
 
-**needs-codex**
-
-Documentation in the Codex needs updating or expanding. Remove the keyword from the ticket once the Codex is updated.
-
 **needs-docs**
 
 Inline documentation for the code is needed. These are either place holder tickets for individual files, or tickets with patches for new functions which need documenting before they are committed.
