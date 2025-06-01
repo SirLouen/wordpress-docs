@@ -76,7 +76,7 @@ The ticket has been reviewed, found to be desirable to solve, and marked as espe
 
 **2nd-opinion**
 
-Another person is needed to express an opinion about the problem or the solution.
+An opinion is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or any other member of the development community about the problem or the solution in the ticket.
 
 **needs-copy-review**
 
@@ -116,7 +116,7 @@ The patch has been reviewed, found to be desirable to be implemented, and we wou
 
 **dev-feedback**
 
-A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community. For example, use this keyword when double sign-off is required to [backport changes during RC](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/#backport-process).
+Action is required from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team). For general feedback about the ticket use the `2nd-opinion` keyword instead. For example, use this keyword when the patch has been code-reviewed and it is ready for commit or when a double sign-off is required to [backport changes during RC](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/#backport-process).
 
 **needs-privacy-review**
 
