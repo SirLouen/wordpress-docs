@@ -40,7 +40,7 @@ A [dev note](https://make.wordpress.org/core/tag/dev-notes/) has been published 
 
 Only used late in the development cycle (after a branch has been created for a release) to indicate that an issue has been “fixed” in the next “major” version (trunk) and needs to be merged back to the branch for the upcoming release by a permanent committer.  (There is also “fixed-minor” which indicates that an issue needs to be merged back into trunk from a minor release branch; more info about these keywords in this post: [The keywords “fixed-major” and “fixed-minor”](https://make.wordpress.org/core/2011/04/06/the-keywords-fixed-major-and-fixed/).)
 
-**good-first-****bug**
+**good-first-bug**
 
 This keyword signals that the ticket would be a good starting point for new contributors to get used to the process before tackling more complicated tickets.
 
@@ -110,7 +110,7 @@ Input is needed from the [core privacy team](https://make.wordpress.org/core/com
 
 This change is one that warrants a [dev note](https://make.wordpress.org/core/tag/dev-notes/) on the make core blog. If a change is significant new functionality, a large refactor, or includes a breaking change, it always requires a dev note.
 
-**i18n****\-change**
+**i18n-change**
 
 Only used late in the development cycle (after string freeze) to track potential string changes, as translators need to be notified.
 
