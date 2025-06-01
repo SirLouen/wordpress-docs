@@ -20,6 +20,10 @@ A proposed solution to the ticket has been attached, and it is ready for review.
 
 Serves as a partner to _needs-screenshots_. Once a ticket has at least one screenshot, tag it with has-screenshots. If more screenshots are needed, leave needs-screenshots on the ticket until all screenshots are provided. [#has-screenshots](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&keywords=~has-screenshots&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&col=changetime&order=priority) is used to create visual changelogs and the [Today in the Nightly](https://make.wordpress.org/core/tag/today-in-the-nightly/) posts. Do not clear this tag from closed tickets. has-screenshot and needs-screenshots are part of the post-commit diligence lifecycle and are expected to exist on closed tickets. need-screenshots exists temporarily until all screenshots are provided and has-screenshots exists permanently.
 
+**has-test-info**
+
+Input has been given from the patch author to provide information about how the bug can be reproduced or how the patch can be tested.
+
 **has-unit-tests**
 
 The ticket has been reviewed, found to be desirable to solve, and the latest patch contains unit tests. Like _needs-unit-tests_, this keyword indicates the proposed changes constitute a high risk of causing other issues.
@@ -35,6 +39,10 @@ Input has been given from the [core privacy team](https://make.wordpress.org/cor
 **has-dev-note**
 
 A [dev note](https://make.wordpress.org/core/tag/dev-notes/) has been published on the make core blog outlining this change. This change provides significant new functionality, a large refactor, or includes a breaking change.
+
+**add-to-field-guide**
+
+The ticket `dev-note` is a candidate for addition to the [Field Guide](https://make.wordpress.org/core/handbook/contribute/field-guide/).
 
 **fixed-major**
 
@@ -86,6 +94,10 @@ A submitted patch no longer applies cleanly to the WordPress core files, usually
 
 Patches and commits that change UI need screenshots. Document visual iterations. Upload screenshots directly to the ticket or post to [make/flow](https://make.wordpress.org/flow/) for more involved visual documentation such as visual records or visual surveys. Cross-link any make/flow posts with the ticket. Remove the needs-screenshots keyword from the ticket once screenshots for both a desktop and a phone, at the least, are provided. Full context screenshots taken on physical devices are preferred. New patches require new screenshots. Once a ticket has at least one of the needed screenshots, tag it with has-screenshots. [#needs-screenshots](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&keywords=~needs-screenshots&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
 
+**needs-test-info**
+
+Input is needed from the patch author to provide information about how the patch was tested. Step by step instructions are always preferred, but sometimes a [Testing Use-Case](https://make.wordpress.org/test/2025/05/15/building-the-testing-use-case/) is required.
+
 **changes-requested**
 
 Feedback has been provided, and the attached patch needs to be updated.
@@ -96,7 +108,7 @@ Inline documentation for the code is needed. These are either place holder ticke
 
 **needs-unit-tests**
 
-The ticket has been reviewed, found to be desirable to solve, and we would like some unit tests written to test the functionality and any patch that may exist before committing a change, as the risk of causing other issues is high.
+The patch has been reviewed, found to be desirable to be implemented, and we would like some unit tests written to test the functionality and any patch that may exist before committing a change, as the risk of causing other issues is high.
 
 **dev-feedback**
 
@@ -105,6 +117,10 @@ A response is wanted from a [core developer](https://make.wordpress.org/core/han
 **needs-privacy-review**
 
 Input is needed from the [core privacy team](https://make.wordpress.org/core/components/privacy/) with regards to the privacy implications of the suggested changes.
+
+**needs-user-docs**
+
+The user documentation needs to be updated to updated or expanded.
 
 **needs-dev-note**
 
