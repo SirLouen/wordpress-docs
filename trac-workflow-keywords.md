@@ -102,6 +102,10 @@ Input is needed from the patch author to provide information about how the patch
 
 Feedback has been provided, and the attached patch needs to be updated.
 
+**needs-code-review**
+
+The patch has been tested, the functionality is working as expected, but needs to be reviewed by a developer to ensure its correctness.
+
 **needs-docs**
 
 Inline documentation for the code is needed. These are either place holder tickets for individual files, or tickets with patches for new functions which need documenting before they are committed.
