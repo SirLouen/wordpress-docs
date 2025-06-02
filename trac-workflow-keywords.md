@@ -4,6 +4,8 @@ There are a number of **keywords** with a defined meaning. These are commonly us
 
 ## [**Status-based Keywords**](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#status-based-keywords)
 
+Status keywords are used to track the status of a ticket asynchronously. Most are meant for informational purposes to increase the quality of the ticket, and others are useful for batch processing, for example, when creating a Field Guide entry.
+
 **close**
 
 The ticket is a candidate for closure with a disposition other than fixed (i.e. **wontfix**, **worksforme**, **invalid**, or **duplicate**). Often seen with **reporter-feedback** or **2nd-opinion**; otherwise, the ticket would have been closed in lieu of adding the **close** keyword.
@@ -57,6 +59,8 @@ This keyword signals that the ticket would be a good starting point for new cont
 When paired with the `php-compatibility` focus, this manually added keyword identifies the specific PHP version (i.e. `NN`) that first introduced a compatibility issue or task. For example, `php80` keyword identifies that PHP 8.0 is the version that first introduced the incompatibility.
 
 ## [**Action-based Keywords**](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)
+
+Action-based keywords are steps in the workflow that require action from a specific person or group of people. They should never be combined with other action-based keywords at the same time because they reflect the exact step position in the workflow.
 
 **needs-design**
 
