@@ -8,7 +8,7 @@ Status keywords are used to track the status of a ticket asynchronously. Most ar
 
 **close**
 
-The ticket is a candidate for closure with a disposition other than fixed (i.e. **wontfix**, **worksforme**, **invalid**, or **duplicate**). Often seen with **reporter-feedback** or **2nd-opinion**; otherwise, the ticket would have been closed in lieu of adding the **close** keyword.
+The ticket is a candidate for closure with a disposition other than fixed (i.e. **wontfix**, **worksforme**, **invalid**, or **duplicate**), while allowing a bit more time for additional details or opinions to be offered. Often seen with **reporter-feedback** or **2nd-opinion**; otherwise, the ticket would have been closed in lieu of adding the **close** keyword.
 
 **has-copy-review**
 
